@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .block {
@@ -39,17 +39,19 @@
     background-color: #F7F7F8;
     display: flex;
     flex-direction: column;
+    border-radius: 16px;
 }
 
 .text-block1-2 {
     margin-top: 220px;
     width: 492px;
-    height: 278px;
+    height: 335px;
     background-color: cyan;
     margin-left: 49px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .h1-1-2 {
@@ -67,26 +69,81 @@
     font-weight: weight;
     font-style: normal;
     align-items: center;
+    margin-bottom: 20px;
+}
+
+.buttons1-2 {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: space-around;
 }
 
 .button1-2-1 {
-    width: 190;
-    height: 40;
+    width: 190px;
+    height: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding: auto;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    align-items: center;
+    font-size: 16px;
 }
 
 .button1-2-2 {
-    width: 190;
-    height: 40;
+    width: 190px;
+    height: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    padding: auto;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    align-items: center;
+    font-size: 16px;
 }
 
 .block2 {
     width: 590px;
     height: 800px;
     background: url("img/header.png");
+    position: relative;
+    border-radius: 16px;
+}
+
+.buttons2 {
+    width: 190px;
+    height: 40px;
+    margin-left: 400px;
+}
+
+.button2 {
+    width: 190px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding: auto;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    align-items: center;
+    font-size: 16px;
 }
 
 .menu {
@@ -112,9 +169,11 @@ nav {
 .vidguk {
     width: 128px;
     height: 44px;
-    background-color: gray;
+    background-color: #F7F7F8;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    border-radius: 100px;
+    align-items: center;
 }
 
 .icons-menu {
@@ -125,4 +184,27 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.mainblock1 {
+    width: 209px;
+    height: 44px;
+    margin: 0% auto;
+}
+
+.mainbutton1 {
+    width: 209px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    padding: auto;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    align-items: center;
+    font-size: 16px;
 }
